@@ -29,16 +29,16 @@ namespace Laba_10_w
         {
             Car mers = new Car();
             Car bmv = new Car();
-            Car lada = new Car();
+            Car suzuki = new Car();
 
             mers.CarName = "Мурседес";
             bmv.CarName = "BMV";
-            lada.CarName = "Лада";
+            suzuki.CarName = "Сузуки";
 
             Garage garage = new Garage();
             garage.garage.Add(mers);
             garage.garage.Add(bmv);
-            garage.garage.Add(lada);
+            garage.garage.Add(suzuki);
 
             Washer washer = new Washer();
 
